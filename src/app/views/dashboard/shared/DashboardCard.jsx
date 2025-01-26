@@ -45,10 +45,10 @@ export default function DashboardCard() {
 
 
   const cardItems = [
-    { label: 'BALANCE', icon: <AttachMoney />, value: information.balance, color: "#4caf50" },
-    { label: 'LOAN_BALANCE', icon: <MonetizationOn />, value: information.loan_balance, color: "#f44336" },
-    { label: 'SALE', icon: <ShoppingCart />, value: [{title:'TODAY_SALE',val:information.today_sale}, {title:'TOTAL_SALE',val:information.total_sold_amount}], color: "#9c27b0" },
-    { label: 'PROFIT', icon: <AttachMoney />, value: [{title:'TODAY_PROFIT',val:information.today_profit}, {title:'TOTAL_PROFIT',val:information.total_revenue}], color: "#3f51b5" },
+    { label: 'BALANCE', icon: <AttachMoney />, value: information.balance, color: "#A9A9A9" },
+    { label: 'LOAN_BALANCE', icon: <MonetizationOn />, value: information.loan_balance, color: "#808080" },
+    { label: 'SALE', icon: <ShoppingCart />, value: [{title:'TODAY_SALE',val:information.today_sale}, {title:'TOTAL_SALE',val:information.total_sold_amount}], color: "#696969" },
+    { label: 'PROFIT', icon: <AttachMoney />, value: [{title:'TODAY_PROFIT',val:information.today_profit}, {title:'TOTAL_PROFIT',val:information.total_revenue}], color: "#778899" },
   ];
 
   const cardVariants = {

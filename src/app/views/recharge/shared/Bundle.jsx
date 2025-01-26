@@ -398,6 +398,7 @@ export default function Bundle() {
                         elevation={5}
                         key={index}
                         sx={{
+                          backgroundColor:'#D3D3D3',
                           minWidth: "90px",
                           minHeight: "90px",
                           display: "flex",
@@ -734,6 +735,7 @@ export default function Bundle() {
                       textAlign: "center",
                       padding: 3,
                       borderRadius: "12px",
+                      backgroundColor:'#D3D3D3',
                       boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
                       transition: "transform 0.3s, box-shadow 0.3s",
                       display: "flex",

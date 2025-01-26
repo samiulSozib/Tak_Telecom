@@ -93,7 +93,7 @@ export default function JwtLogin() {
               height="100%"
               width="100%"
             >
-              <img src="/assets/images/telecom/bakhter_telecom.png" alt="Logo" style={{ maxWidth: "80%", height: "auto" }} />
+              <img src="/assets/images/telecom/tak_telecom.jpeg" alt="Logo" style={{ maxWidth: "80%", height: "auto" }} />
             </Box>
           </Grid>
 

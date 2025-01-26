@@ -50,7 +50,7 @@ export default function InformationCard() {
       title: t('BALANCE'),
       value: information.balance,
       gradient: "linear-gradient(135deg, #e0f7fa, #b2ebf2)", // Light blue gradient
-      color: "#4caf50",
+      color: "#C0C0C0",
       bgColor: "rgba(9, 182, 109, 0.15)"
     },
     {
@@ -58,7 +58,7 @@ export default function InformationCard() {
       title: t('LOAN_BALANCE'),
       value: information.loan_balance,
       gradient: "linear-gradient(135deg, #f8bbd0, #f48fb1)", // Light pink gradient
-      color: "#f44336",
+      color: "#A9A9A9",
       bgColor: bgError
     },
     {
@@ -66,7 +66,7 @@ export default function InformationCard() {
       title: t('TOTAL_SOLD_AMOUNT'),
       value: information.total_sold_amount,
       gradient: "linear-gradient(135deg, #e1bee7, #ba68c8)", // Light purple gradient
-      color: "#9c27b0",
+      color: "#808080",
       bgColor: "rgba(9, 182, 109, 0.15)"
     },
     {
@@ -74,7 +74,7 @@ export default function InformationCard() {
       title: t('TOTAL_REVENUE'),
       value: information.total_revenue,
       gradient: "linear-gradient(135deg, #c8e6c9, #81c784)", // Light green gradient
-      color: "#3f51b5",
+      color: "#708090",
       bgColor: "rgba(9, 182, 109, 0.15)"
     },
     {
@@ -82,7 +82,7 @@ export default function InformationCard() {
       title: t('TOTAL_SALE'),
       value: information.today_sale,
       gradient: "linear-gradient(135deg, #ffccbc, #ffab91)", // Light orange gradient
-      color: "#08ad6c",
+      color: "#696969",
       bgColor: "rgba(9, 182, 109, 0.15)"
     },
     {
@@ -90,7 +90,7 @@ export default function InformationCard() {
       title: t('TOTAL_PROFIT'),
       value: information.today_profit,
       gradient: "linear-gradient(135deg, #fff9c4, #fff59d)", // Light yellow gradient
-      color: "#4caf50",
+      color: "#778899",
       bgColor: "rgba(9, 182, 109, 0.15)"
     }
   ];

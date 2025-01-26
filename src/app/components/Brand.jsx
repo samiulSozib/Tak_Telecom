@@ -32,10 +32,10 @@ export default function Brand({ children }) {
     <BrandRoot>
       <Box display="flex" alignItems="center">
         {/* <MatxLogo /> */}
-        <img src="/assets/images/telecom/bakhter_telecom.png" alt="My Logo" style={{ height: "40px" }} />
+        <img src="/assets/images/telecom/tak_telecom.jpeg" alt="My Logo" style={{ height: "40px" }} />
         <Link to="/dashboard/default" style={{ textDecoration: "none" }}>
           <StyledSpan mode={mode} className="sidenavHoverShow" sx={{ mr: isRtl ? "0.5rem" : "0", ml: isRtl ? "0" : "0.5rem" }}>
-          Bakhtar
+          Tak
           </StyledSpan>
         </Link>
       </Box>

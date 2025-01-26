@@ -255,7 +255,7 @@ export default function InfoModal({ open, onClose, orderDetails, currency_prefer
                 backgroundSize: "150px 150px",
                 borderRadius: 2, 
                 width: '100%',
-                backgroundImage: `url('/assets/images/telecom/bakhter_opacity.png')`,
+                backgroundImage: `url('/assets/images/telecom/tak_telecom.jpeg')`,
                 paddingLeft: isRtl ? 3 : 1, 
                 paddingRight: isRtl ? 1 : 3 
               }}
