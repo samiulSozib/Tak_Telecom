@@ -276,7 +276,7 @@ export default function TopSellingTable() {
                           variant="caption"
                           sx={{ fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }}
                         >
-                          {t(`${order.bundle.validity_type.toUpperCase()}`)}
+                          {t(`${order?.bundle?.validity_type.toUpperCase()}`)}
                         </Typography>
                       </Box>
                     )}
