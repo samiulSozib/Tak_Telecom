@@ -266,7 +266,7 @@ export default function PaginationTable() {
                           fontSize: isSmallScreen ? "12px" : "13px",
                         }}
                       >
-                        {t(`${order?.bundle?.validity_type.toUpperCase()}`)}
+                        {t(`${order?.bundle?.validity_type?.toUpperCase()}`)}
                       </Typography>
                     </Box>
                   </CardContent>
