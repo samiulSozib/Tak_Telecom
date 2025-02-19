@@ -273,7 +273,7 @@ export default function InfoModal({ open, onClose, orderDetails, currency_prefer
                     </Box>
                     <Box display="flex" justifyContent="space-between" my={1}>
                       <Label sx={{ color: "black" }}>{t('VALIDITY_TYPE')}</Label>
-                      <Value>{t(`${(orderDetails.bundle.validity_type).toUpperCase()}`)}</Value>
+                      <Value>{t(`${(orderDetails?.bundle?.validity_type)?.toUpperCase()}`)}</Value>
                     </Box>
                     {showSellingPrice && (
                       <Box display="flex" justifyContent="space-between" my={1}>
